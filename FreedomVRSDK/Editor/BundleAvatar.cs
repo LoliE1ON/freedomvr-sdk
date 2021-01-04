@@ -39,11 +39,11 @@ namespace FreedomVRSDK.Editor
         private static void Build(GameObject avatar) 
         {
             var directories = CreateDirectoriesForAvatar(avatar.name);
-            var prefab = PrefabUtility.SaveAsPrefabAsset(avatar, directories.DataPath + "/" + avatar.name + ".prefab");
-            
+            var prefab = PrefabUtility.SaveAsPrefabAsset(avatar, directories.DataPath + "/" + Config.AvatarPrefabName);
+
             var buildMap = new List<AssetBundleBuild> {
                 new AssetBundleBuild {
-                    assetBundleName = Config.AvatarBuildName,
+                    assetBundleName = "bundle.avatar",
                     assetNames = new [] {
                         AssetDatabase.GetAssetPath(prefab)
                     }

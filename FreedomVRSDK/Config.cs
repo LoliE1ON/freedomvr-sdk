@@ -8,5 +8,6 @@
         public static string DocumentsAvatarsDirectory = DocumentsDirectory + "/Avatars";
 
         public static string AvatarBuildName = "avatar.fvra";
+        public static string AvatarPrefabName = "avatar.prefab";
     }
 }
