@@ -43,7 +43,7 @@ namespace FreedomVRSDK.Editor
 
             var buildMap = new List<AssetBundleBuild> {
                 new AssetBundleBuild {
-                    assetBundleName = "bundle.avatar",
+                    assetBundleName = Config.AvatarBuildName,
                     assetNames = new [] {
                         AssetDatabase.GetAssetPath(prefab)
                     }

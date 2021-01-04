@@ -7,7 +7,7 @@
         public static string DocumentsDirectory = "FreedomVR";
         public static string DocumentsAvatarsDirectory = DocumentsDirectory + "/Avatars";
 
-        public static string AvatarBuildName = "avatar.fvra";
+        public static string AvatarBuildName = "bundle.avatar";
         public static string AvatarPrefabName = "avatar.prefab";
     }
 }
